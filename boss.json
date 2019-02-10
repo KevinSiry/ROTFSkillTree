@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Oryx",
+        "hp_min": 200,
+        "hp_max": 500,
+        "damage": 10,
+        "experience": 100,
+        "level_min": 20,
+        "level_max": 20,
+        "loots": [
+            {
+                "name": "itemcrate",
+                "chance": 10
+            },
+            {
+                "name": "specialcrate",
+                "chance": 2
+            }
+        ]
+    },
+    {
+        "name": "ScorpionQueen",
+        "hp_min": 100,
+        "hp_max": 100,
+        "damage": 10,
+        "experience": 20,
+        "level_min": 1,
+        "level_max": 6,
+        "loots": [
+            {
+                "name": "armor_t1",
+                "chance": 20
+            },
+            {
+                "name": "weapon_t1",
+                "chance": 20
+            }
+        ]
+    },
+    {
+        "name": "GiantCrab",
+        "hp_min": 300,
+        "hp_max": 300,
+        "damage": 10,
+        "experience": 43,
+        "level_min": 3,
+        "level_max": 8,
+        "loots": [
+            {
+                "name": "armor_t1",
+                "chance": 20
+            },
+            {
+                "name": "armor_t2",
+                "chance": 10
+            },
+            {
+                "name": "ability_t1",
+                "chance": 20
+            },
+            {
+                "name": "weapon_t2",
+                "chance": 10
+            }
+        ]
+    },
+    {
+        "name": "DwarfKing",
+        "hp_min": 320,
+        "hp_max": 320,
+        "damage": 10,
+        "experience": 51,
+        "level_min": 5,
+        "level_max": 10,
+        "loots": []
+    },
+    {
+        "name": "HornedDrake",
+        "hp_min": 1270,
+        "hp_max": 1270,
+        "damage": 10,
+        "experience": 228,
+        "level_min": 8,
+        "level_max": 19,
+        "loots": []
+    },
+    {
+        "name": "HunterCentaur",
+        "hp_min": 1200,
+        "hp_max": 1200,
+        "damage": 10,
+        "experience": 120,
+        "level_min": 12,
+        "level_max": 19,
+        "loots": []
+    },
+    {
+        "name": "GhostKing",
+        "hp_min": 5000,
+        "hp_max": 5000,
+        "damage": 10,
+        "experience": 195,
+        "level_min": 15,
+        "level_max": 19,
+        "loots": []
+    }
+]

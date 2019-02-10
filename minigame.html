@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <title>Skill-Tree Simulator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="minigame.css">
+    <script type="text/javascript" src="minigame.js"></script>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.ico" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="row" onclick="teleportation()">
+                    <p id="portal"><img src="clicker/portal.png" /> FIGHT !</p>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-6">
+                <img id="boss" class="boss" src="clicker/nexus.png" onclick="damaging(this)" />
+                <div id="boss-hp"></div>
+            </div>
+            <div class="offset-md-1 col-md-2">
+                <div class="row stats_box">
+                    <div class="offset-md-1 col-md-10">
+                        <div class="progress" style="height: 30px;">
+                            <div id="char_hp" class="progress-bar bg-danger" style="width: 100%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"><span>100 HP</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row stats_box">
+                    <div class="offset-md-1 col-md-10">
+                        <div class="progress" style="height: 30px;">
+                            <div id="char_mp" class="progress-bar bg-info" style="width: 100%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"><span>100 MP</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row stats_box">
+                    <div class="offset-md-1 col-md-10">
+                        <div id="char_exp"></div>
+                    </div>
+                </div>
+
+                <div class="row stats_box">
+                    <div class="col-md-3">
+                        <p>ATK</p>
+                    </div>
+                    <div class="col-md-1">
+                        <span id="atk">0</span>
+                    </div>
+                    <div class="offset-md-1 col-md-3">
+                        <p>DEF</p>
+                    </div>
+                    <div class="col-md-1">
+                        <span id="def">0</span>
+                    </div>
+                </div>
+
+                <div class="row stats_box">
+                    <div class="col-md-3">
+                        <p>SPD</p>
+                    </div>
+                    <div class="col-md-1">
+                        <span id="spd">0</span>
+                    </div>
+                    <div class="offset-md-1 col-md-3">
+                        <p>DEX</p>
+                    </div>
+                    <div class="col-md-1">
+                        <span id="dex">0</span>
+                    </div>
+                </div>
+
+                <div class="row stats_box">
+                    <div class="col-md-3">
+                        <p>VIT</p>
+                    </div>
+                    <div class="col-md-1">
+                        <span id="vit">0</span>
+                    </div>
+                    <div class="offset-md-1 col-md-3">
+                        <p>WIS</p>
+                    </div>
+                    <div class="col-md-1">
+                        <span id="wis">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <div class="row" style="height: 100px;">
+                    <div class="col-md-3 box equip1 h-100" style="width: 100%;">
+                        <img id="weapon" src="clicker/classes/warrior/weapon_t0.png" class="item"/>
+                    </div>
+                    <div class="col-md-3 box h-100" style="width: 100%;">
+                        <img id="ability" src="clicker/classes/warrior/ability_t0.png" class="item"/>
+                    </div>
+                    <div class="col-md-3 box h-100" style="width: 100%;">
+                        <img id="armor" src="" class="item"/>
+                    </div>
+                    <div class="col-md-3 box equip2 h-100" style="width: 100%;">
+                        <img id="ring" src="" class="item"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div id="trash" class="col-md-2 box" ondrop="drop(event)" ondragover="allowDrop(event)"><p>Drag your items here to delete them !</p></div>
+            <div class="offset-md-2 col-md-4">
+                <div class="row" style="height: 100px;">
+                    <div class="col-md-3 box inv1 h-100" style="width: 100%;">
+                        <img id="inv1" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                    <div class="col-md-3 box h-100" style="width: 100%;">
+                        <img id="inv2" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                    <div class="col-md-3 box h-100" style="width: 100%;">
+                        <img id="inv3" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                    <div class="col-md-3 box inv2 h-100" style="width: 100%;">
+                        <img id="inv4" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                </div>
+                <div class="row" style="height: 100px;">
+                    <div class="col-md-3 box inv4 h-100" style="width: 100%;">
+                        <img id="inv5" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                    <div class="col-md-3 box h-100" style="width: 100%;">
+                        <img id="inv6" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                    <div class="col-md-3 box h-100" style="width: 100%;">
+                        <img id="inv7" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                    <div class="col-md-3 box inv3 h-100" style="width: 100%;">
+                        <img id="inv8" src="" item="null" class="item" onclick="activateItem(this)" draggable="true" ondragstart="drag(event)"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

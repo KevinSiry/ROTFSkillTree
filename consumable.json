@@ -1,0 +1,27 @@
+[
+    {
+        "name": "itemcrate",
+        "loots": [
+            {
+                "name": "weapon_ut1/warrior",
+                "chance": 30
+            },
+            {
+                "name": "weapon_ut2/warrior",
+                "chance": 10
+            },
+            {
+                "name": "weapon_ut3/warrior",
+                "chance": 20
+            },
+            {
+                "name": "weapon_ut4/warrior",
+                "chance": 25
+            },
+            {
+                "name": "weapon_ut5/warrior",
+                "chance": 15
+            }
+        ]
+    }
+]

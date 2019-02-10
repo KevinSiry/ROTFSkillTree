@@ -1,0 +1,570 @@
+[
+    {
+        "id": "weapon_t0",
+        "class": "warrior",
+        "name": "Short Sword",
+        "damage_min": 45,
+        "damage_max": 90,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t1",
+        "class": "warrior",
+        "name": "Broad Sword",
+        "damage_min": 60,
+        "damage_max": 105,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t2",
+        "class": "warrior",
+        "name": "Saber",
+        "damage_min": 75,
+        "damage_max": 105,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t3",
+        "class": "warrior",
+        "name": "Long Sword",
+        "damage_min": 75,
+        "damage_max": 125,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t4",
+        "class": "warrior",
+        "name": "Falchion",
+        "damage_min": 75,
+        "damage_max": 135,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t5",
+        "class": "warrior",
+        "name": "Fire Sword",
+        "damage_min": 90,
+        "damage_max": 135,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t6",
+        "class": "warrior",
+        "name": "Glass Sword",
+        "damage_min": 30,
+        "damage_max": 210,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t7",
+        "class": "warrior",
+        "name": "Golden Sword",
+        "damage_min": 150,
+        "damage_max": 180,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t8",
+        "class": "warrior",
+        "name": "Ravenheart Sword",
+        "damage_min": 180,
+        "damage_max": 255,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t9",
+        "class": "warrior",
+        "name": "Dragonsoul Sword",
+        "damage_min": 195,
+        "damage_max": 255,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t10",
+        "class": "warrior",
+        "name": "Archon Sword",
+        "damage_min": 210,
+        "damage_max": 255,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t11",
+        "class": "warrior",
+        "name": "Skysplitter Sword",
+        "damage_min": 210,
+        "damage_max": 270,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t12",
+        "class": "warrior",
+        "name": "Sword of Acclaim",
+        "damage_min": 220,
+        "damage_max": 275,
+        "shots": 1
+    },
+    {
+        "id": "weapon_t13",
+        "class": "warrior",
+        "name": "Sword of Splendor",
+        "damage_min": 225,
+        "damage_max": 280,
+        "shots": 1
+    },
+    {
+        "id": "weapon_ut1",
+        "class": "warrior",
+        "name": "Crystal Sword",
+        "damage_min": 180,
+        "damage_max": 210,
+        "shots": 1
+    },
+    {
+        "id": "weapon_ut2",
+        "class": "warrior",
+        "name": "Ancient Stone Sword",
+        "damage_min": 340,
+        "damage_max": 390,
+        "shots": 1
+    },
+    {
+        "id": "weapon_ut3",
+        "class": "warrior",
+        "name": "Pirate King’s Cutlass",
+        "damage_min": 180,
+        "damage_max": 230,
+        "shots": 1
+    },
+    {
+        "id": "weapon_ut4",
+        "class": "warrior",
+        "name": "Demon Blade",
+        "damage_min": 150,
+        "damage_max": 175,
+        "shots": 2
+    },
+    {
+        "id": "weapon_ut5",
+        "class": "warrior",
+        "name": "Sword of the Colossus",
+        "damage_min": 280,
+        "damage_max": 295,
+        "shots": 1
+    },
+    {
+        "id": "ability_t0",
+        "class": "warrior",
+        "name": "Combat Helm",
+        "def": 2
+    },
+    {
+        "id": "ability_t1",
+        "class": "warrior",
+        "name": "Bronze Helm",
+        "def": 3
+    },
+    {
+        "id": "ability_t2",
+        "class": "warrior",
+        "name": "Black Iron Helm",
+        "def": 5
+    },
+    {
+        "id": "ability_t3",
+        "class": "warrior",
+        "name": "Red Iron Helm",
+        "def": 6
+    },
+    {
+        "id": "ability_t4",
+        "class": "warrior",
+        "name": "Steel Helm",
+        "def": 8
+    },
+    {
+        "id": "ability_t5",
+        "class": "warrior",
+        "name": "Golden Helm",
+        "def": 10
+    },
+    {
+        "id": "ability_t6",
+        "class": "warrior",
+        "name": "Helm of the Great General",
+        "def": 10,
+        "vit": 2,
+        "wis": 2
+    },
+    {
+        "id": "armor_t1",
+        "class": "warrior",
+        "name": "Iron Mail",
+        "def": 5
+    },
+    {
+        "id": "armor_t2",
+        "class": "warrior",
+        "name": "Chainmail",
+        "def": 6
+    },
+    {
+        "id": "armor_t3",
+        "class": "warrior",
+        "name": "Blue Steel Mail",
+        "def": 7
+    },
+    {
+        "id": "armor_t4",
+        "class": "warrior",
+        "name": "Silver Chainmail",
+        "def": 8
+    },
+    {
+        "id": "armor_t5",
+        "class": "warrior",
+        "name": "Golden Chainmail",
+        "def": 10
+    },
+    {
+        "id": "armor_t6",
+        "class": "warrior",
+        "name": "Plate Mail",
+        "def": 12
+    },
+    {
+        "id": "armor_t7",
+        "class": "warrior",
+        "name": "Mithril Chainmail",
+        "def": 13
+    },
+    {
+        "id": "armor_t8",
+        "class": "warrior",
+        "name": "Mithril Armor",
+        "def": 15
+    },
+    {
+        "id": "armor_t9",
+        "class": "warrior",
+        "name": "Dragonscale Armor",
+        "def": 20
+    },
+    {
+        "id": "armor_t10",
+        "class": "warrior",
+        "name": "Desolation Armor",
+        "def": 21
+    },
+    {
+        "id": "armor_t11",
+        "class": "warrior",
+        "name": "Vengeance Armor",
+        "def": 22
+    },
+    {
+        "id": "armor_t12",
+        "class": "warrior",
+        "name": "Abyssal Armor",
+        "def": 23
+    },
+    {
+        "id": "armor_t13",
+        "class": "warrior",
+        "name": "Acropolis Armor",
+        "def": 24
+    },
+    {
+        "id": "armor_t14",
+        "class": "warrior",
+        "name": "Dominion Armor",
+        "def": 25
+    },
+    {
+        "id": "ring_atk_t1",
+        "class": "warrior",
+        "name": "Ring of Attack",
+        "atk": 3
+    },
+    {
+        "id": "ring_def_t1",
+        "class": "warrior",
+        "name": "Ring of Defense",
+        "def": 3
+    },
+    {
+        "id": "ring_dex_t1",
+        "class": "warrior",
+        "name": "Ring of Dexterity",
+        "dex": 3
+    },
+    {
+        "id": "ring_spd_t1",
+        "class": "warrior",
+        "name": "Ring of Speed",
+        "spd": 3
+    },
+    {
+        "id": "ring_vit_t1",
+        "class": "warrior",
+        "name": "Ring of Vitality",
+        "vit": 3
+    },
+    {
+        "id": "ring_wis_t1",
+        "class": "warrior",
+        "name": "Ring of Wisdom",
+        "wis": 3
+    },
+    {
+        "id": "ring_hp_t1",
+        "class": "warrior",
+        "name": "Ring of Health",
+        "hp": 40
+    },
+    {
+        "id": "ring_mp_t1",
+        "class": "warrior",
+        "name": "Ring of Magic",
+        "mp": 40
+    },
+    {
+        "id": "ring_atk_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Attack",
+        "atk": 5
+    },
+    {
+        "id": "ring_def_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Defense",
+        "def": 5
+    },
+    {
+        "id": "ring_dex_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Dexterity",
+        "dex": 5
+    },
+    {
+        "id": "ring_spd_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Speed",
+        "spd": 5
+    },
+    {
+        "id": "ring_vit_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Vitality",
+        "vit": 5
+    },
+    {
+        "id": "ring_wis_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Wisdom",
+        "wis": 5
+    },
+    {
+        "id": "ring_hp_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Health",
+        "hp": 80
+    },
+    {
+        "id": "ring_mp_t2",
+        "class": "warrior",
+        "name": "Ring of Greater Magic",
+        "mp": 80
+    },
+    {
+        "id": "ring_atk_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Attack",
+        "atk": 6
+    },
+    {
+        "id": "ring_def_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Defense",
+        "def": 6
+    },
+    {
+        "id": "ring_dex_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Dexterity",
+        "dex": 6
+    },
+    {
+        "id": "ring_spd_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Speed",
+        "spd": 6
+    },
+    {
+        "id": "ring_vit_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Vitality",
+        "vit": 6
+    },
+    {
+        "id": "ring_wis_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Wisdom",
+        "wis": 6
+    },
+    {
+        "id": "ring_hp_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Health",
+        "hp": 100
+    },
+    {
+        "id": "ring_mp_t3",
+        "class": "warrior",
+        "name": "Ring of Superior Magic",
+        "mp": 100
+    },
+    {
+        "id": "ring_atk_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Attack",
+        "atk": 7
+    },
+    {
+        "id": "ring_def_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Defense",
+        "def": 7
+    },
+    {
+        "id": "ring_dex_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Dexterity",
+        "dex": 7
+    },
+    {
+        "id": "ring_spd_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Speed",
+        "spd": 7
+    },
+    {
+        "id": "ring_vit_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Vitality",
+        "vit": 7
+    },
+    {
+        "id": "ring_wis_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Wisdom",
+        "wis": 7
+    },
+    {
+        "id": "ring_hp_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Health",
+        "hp": 120
+    },
+    {
+        "id": "ring_mp_t4",
+        "class": "warrior",
+        "name": "Ring of Paramount Magic",
+        "mp": 120
+    },
+    {
+        "id": "ring_atk_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Attack",
+        "atk": 8
+    },
+    {
+        "id": "ring_def_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Defense",
+        "def": 8
+    },
+    {
+        "id": "ring_dex_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Dexterity",
+        "dex": 8
+    },
+    {
+        "id": "ring_spd_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Speed",
+        "spd": 8
+    },
+    {
+        "id": "ring_vit_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Vitality",
+        "vit": 8
+    },
+    {
+        "id": "ring_wis_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Wisdom",
+        "wis": 8
+    },
+    {
+        "id": "ring_hp_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Health",
+        "hp": 140
+    },
+    {
+        "id": "ring_mp_t5",
+        "class": "warrior",
+        "name": "Ring of Exalted Magic",
+        "mp": 140
+    },
+    {
+        "id": "ring_atk_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Attack",
+        "atk": 9
+    },
+    {
+        "id": "ring_def_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Defense",
+        "def": 9
+    },
+    {
+        "id": "ring_dex_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Dexterity",
+        "dex": 9
+    },
+    {
+        "id": "ring_spd_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Speed",
+        "spd": 9
+    },
+    {
+        "id": "ring_vit_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Vitality",
+        "vit": 9
+    },
+    {
+        "id": "ring_wis_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Wisdom",
+        "wis": 9
+    },
+    {
+        "id": "ring_hp_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Health",
+        "hp": 180
+    },
+    {
+        "id": "ring_mp_t6",
+        "class": "warrior",
+        "name": "Ring of Unbound Magic",
+        "mp": 180
+    }
+]

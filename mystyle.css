@@ -1,0 +1,165 @@
+div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.darkmode {
+    background-color : rgb(21, 32, 43);
+    color: white;
+}
+
+body {
+    font-weight: bold;
+}
+
+.case {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.opacity{
+    opacity: 0.3;
+}
+
+figure {
+    padding-right: 10px;
+    text-align: center;
+}
+
+.caption {
+    font-size: 10px;
+}
+
+.rune_style{
+    width: 150px; 
+    height: 150px; 
+    border-style: solid; 
+    border-width: 5px;
+}
+
+.rune_modal{
+    width: 100px; 
+    height: 100px;
+    border-style: solid; 
+    border-width: 5px;
+}
+
+.rune_setup {
+    margin-top: 30px;
+}
+
+.row-bottom-margin { 
+    margin-bottom:-15px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+body[class="darkmode"] .modal-content{
+    background-color: #15202B;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .contain {
+      margin-top: 10px;
+  }
+
+  .contact {
+      text-align: right;
+      font-size: 12px;
+      font-weight: bold;
+  }
+
+  .toggle {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+  }
+  .toggle:before {
+    content: "";
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 34px;
+    height: 14px;
+    display: block;
+    background: #9A9999;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+  }
+  .toggle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(154, 153, 153, 0.5);
+    transition: all 0.2s ease;
+  }
+  .toggle span:before {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: -18px;
+    width: 56px;
+    height: 56px;
+    background: rgba(79, 46, 220, 0.5);
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 1;
+    pointer-events: none;
+  }
+  
+  #cbx:checked + .toggle:before {
+    background: #947ADA;
+  }
+  #cbx:checked + .toggle span {
+    background: #4F2EDC;
+    transform: translateX(20px);
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    box-shadow: 0 3px 8px rgba(79, 46, 220, 0.2);
+  }
+  #cbx:checked + .toggle span:before {
+    transform: scale(1);
+    opacity: 0;
+    transition: all 0.4s ease;
+  }

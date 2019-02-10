@@ -1,0 +1,2283 @@
+[
+  {
+    "id": 1,
+    "placeholder": "3wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "placeholder": "2%wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "placeholder": "1%wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "placeholder": "2wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "placeholder": "1%wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "placeholder": "3%wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "placeholder": "1%wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "placeholder": "2wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "placeholder": "Survivor",
+    "img": "images\\survivor.png",
+    "stats": [
+      {
+        "name": "atk_perc",
+        "qty": -9
+      },
+      {
+        "name": "hp_perc",
+        "qty": 18
+      },
+      {
+        "name": "mp_perc",
+        "qty": 18
+      },
+      {
+        "name": "rof_perc",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "placeholder": "1dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "placeholder": "2atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "placeholder": "1dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "placeholder": "2dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "placeholder": "Infiltrator",
+    "img": "images\\infiltrator.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": -5
+      },
+      {
+        "name": "atk_perc",
+        "qty": -5
+      },
+      {
+        "name": "def_perc",
+        "qty": -20
+      },
+      {
+        "name": "spd_perc",
+        "qty": 5
+      },
+      {
+        "name": "eva",
+        "qty": 25
+      },
+      {
+        "name": "hp_perc",
+        "qty": -5
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "placeholder": "1dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "placeholder": "1dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "placeholder": "2%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "placeholder": "1%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "placeholder": "1dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "placeholder": "2%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "placeholder": "2def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "placeholder": "2spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "placeholder": "2%spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "placeholder": "4%def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def_perc",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "placeholder": "2spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "placeholder": "2def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "placeholder": "1%atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "placeholder": "2vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "placeholder": "1%atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "placeholder": "2vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "placeholder": "2%vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "placeholder": "2%vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "placeholder": "5%def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def_perc",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "placeholder": "2%atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "placeholder": "3%vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "placeholder": "2%vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "placeholder": "10hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "placeholder": "5mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "placeholder": "10mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "placeholder": "5hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "placeholder": "Sentinel",
+    "img": "images\\sentinel.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": -8
+      },
+      {
+        "name": "def_perc",
+        "qty": 40
+      },
+      {
+        "name": "hp_perc",
+        "qty": 10
+      },
+      {
+        "name": "rof_perc",
+        "qty": -8
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "placeholder": "3%hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "placeholder": "3%mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "placeholder": "3%mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "placeholder": "10hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "placeholder": "10mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "placeholder": "Looter",
+    "img": "images\\looter.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 10
+      },
+      {
+        "name": "hp_perc",
+        "qty": -12
+      },
+      {
+        "name": "mp_perc",
+        "qty": -12
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "placeholder": "5hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "placeholder": "5hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "placeholder": "5mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "placeholder": "5mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "placeholder": "2%hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "placeholder": "1eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "placeholder": "2eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "placeholder": "1eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "placeholder": "1eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "placeholder": "3eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "placeholder": "4%eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva_perc",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "placeholder": "1eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "placeholder": "2eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "placeholder": "3%eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "placeholder": "2spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "placeholder": "3%spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "placeholder": "1%spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "placeholder": "1eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "placeholder": "5hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "placeholder": "5mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "placeholder": "2%hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "placeholder": "2%mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "placeholder": "3%hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "placeholder": "3%mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "placeholder": "10hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "placeholder": "10mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "placeholder": "1%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "placeholder": "1%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "placeholder": "1dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "placeholder": "2%dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "placeholder": "2%atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "placeholder": "2wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "placeholder": "2%wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "placeholder": "4%wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis_perc",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "placeholder": "Maniac",
+    "img": "images\\maniac.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": 10
+      },
+      {
+        "name": "vit_perc",
+        "qty": -4
+      },
+      {
+        "name": "atk_perc",
+        "qty": -12
+      },
+      {
+        "name": "spd_perc",
+        "qty": -4
+      },
+      {
+        "name": "hp_perc",
+        "qty": -8
+      },
+      {
+        "name": "rof_perc",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "placeholder": "2vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "placeholder": "1%vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "placeholder": "Butcher",
+    "img": "images\\butcher.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": -6
+      },
+      {
+        "name": "vit_perc",
+        "qty": -3
+      },
+      {
+        "name": "atk_perc",
+        "qty": 15
+      },
+      {
+        "name": "spd_perc",
+        "qty": -4
+      },
+      {
+        "name": "wis_perc",
+        "qty": -3
+      },
+      {
+        "name": "rof_perc",
+        "qty": -5
+      },
+      {
+        "name": "def_perc",
+        "qty": -4
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "placeholder": "10hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 10
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "placeholder": "5hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "placeholder": "1hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "placeholder": "1%vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "placeholder": "1%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "placeholder": "1%dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "placeholder": "1%dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "placeholder": "1%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "placeholder": "1eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "placeholder": "1%eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "placeholder": "2eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "placeholder": "3hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "placeholder": "3mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "placeholder": "1%hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "placeholder": "1%mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "placeholder": "2%def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "placeholder": "2def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "placeholder": "2%def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "placeholder": "2%def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "placeholder": "1%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "placeholder": "1%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "placeholder": "1%spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "placeholder": "1%spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "placeholder": "1%spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "placeholder": "3eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "placeholder": "2%rof",
+    "img": "images\\rof.png",
+    "stats": [
+      {
+        "name": "rof_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "placeholder": "2%vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit_perc",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "placeholder": "Jugger",
+    "img": "images\\juggernaut.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": -5
+      },
+      {
+        "name": "vit_perc",
+        "qty": 20
+      },
+      {
+        "name": "atk_perc",
+        "qty": -5
+      },
+      {
+        "name": "spd_perc",
+        "qty": -5
+      },
+      {
+        "name": "def_perc",
+        "qty": -5
+      },
+      {
+        "name": "hp_perc",
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "placeholder": "5hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "placeholder": "5mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "placeholder": "1%hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "placeholder": "1%mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "placeholder": "Adept",
+    "img": "images\\adept.png",
+    "stats": [
+      {
+        "name": "dex_perc",
+        "qty": -5
+      },
+      {
+        "name": "wis_perc",
+        "qty": 20
+      },
+      {
+        "name": "atk_perc",
+        "qty": -5
+      },
+      {
+        "name": "spd_perc",
+        "qty": -5
+      },
+      {
+        "name": "def_perc",
+        "qty": -5
+      },
+      {
+        "name": "mp_perc",
+        "qty": 12
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "placeholder": "2atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "placeholder": "2def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "placeholder": "3%def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def_perc",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "placeholder": "1%def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def_perc",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "placeholder": "1atk",
+    "img": "images\\atk.png",
+    "stats": [
+      {
+        "name": "atk",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "placeholder": "1dex",
+    "img": "images\\dex.png",
+    "stats": [
+      {
+        "name": "dex",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "placeholder": "1spd",
+    "img": "images\\spd.png",
+    "stats": [
+      {
+        "name": "spd",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "placeholder": "1def",
+    "img": "images\\def.png",
+    "stats": [
+      {
+        "name": "def",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "placeholder": "1vit",
+    "img": "images\\vit.png",
+    "stats": [
+      {
+        "name": "vit",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "placeholder": "1wis",
+    "img": "images\\wis.png",
+    "stats": [
+      {
+        "name": "wis",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "placeholder": "5hp",
+    "img": "images\\hp.png",
+    "stats": [
+      {
+        "name": "hp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "placeholder": "5mp",
+    "img": "images\\mp.png",
+    "stats": [
+      {
+        "name": "mp",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "placeholder": "2eva",
+    "img": "images\\eva.png",
+    "stats": [
+      {
+        "name": "eva",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "placeholder": "1%loot",
+    "img": "images\\loot.png",
+    "stats": [
+      {
+        "name": "loot_perc",
+        "qty": 1
+      }
+    ]
+  }
+]

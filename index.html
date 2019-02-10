@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <title>Skill-Tree Simulator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="runes.js"></script>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.ico" />
+</head>
+
+<body class="darkmode">
+    <div class="container-fluid contain">
+        <div class="row row-bottom-margin">
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-1" style="margin-right: 5px; margin-left: 10px;">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div style="margin-right: 5px;">
+                        <input type="checkbox" id="cbx" style="display:none;" checked/>
+                        <label for="cbx" class="toggle"><span></span></label>
+                    </div>
+                    <div>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <label>Select class:</label>
+                        <select class="form-control" id="classes">
+                        </select>
+                    </div>
+                    <br>
+                    <div id="builds_box" class="form-group" hidden>
+                        <label>Select build:</label>
+                        <select class="form-control" id="builds">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="runes" class="col-md-2" style="text-align: center;">
+                <div id="rune1" class="rune_setup">
+                    <img src="images/empty_rune_dmode.png" onclick="modal('rune1', 'red')" class="rounded-circle rune_style"
+                        style="border-color:#FF5500;" />
+                    <figcaption id="last_r"></figcaption>
+                </div>
+                <div id="rune2" class="rune_setup">
+                    <img src="images/empty_rune_dmode.png" onclick="modal('rune2', 'green')" class="rounded-circle rune_style"
+                        style="border-color:#00FF00;" />
+                    <figcaption id="last_g"></figcaption>
+                </div>
+                <div id="rune3" class="rune_setup">
+                    <img src="images/empty_rune_dmode.png" onclick="modal('rune3', 'blue')" class="rounded-circle rune_style"
+                        style="border-color:#5F63FA;" />
+                    <figcaption id="last_b"></figcaption>
+                </div>
+                <div id="rune4" class="rune_setup">
+                    <img src="images/empty_rune_dmode.png" onclick="modal('rune4', 'yellow')" class="rounded-circle rune_style"
+                        style="border-color:#FFFF00;" />
+                    <figcaption id="last_y"></figcaption>
+                </div>
+            </div>
+            <div id="data" class="col-md-5">
+            </div>
+            <div id="show_stats" class="col-md-1">
+                <h1>
+                    <span id="nbr_rune">0</span> / 82
+                </h1>
+                <p id="stats"></p>
+            </div>
+            <div class="col-md-2">
+                <p id="stats_rune"></p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer class="offset-md-9 col-md-2">
+        <p class="contact">Contact : Chabow#7728</p>
+    </footer>
+
+    <div id="modal_red" class="modal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-3 col-md-6">
+                    <div class="modal-content">
+                        <div class="row rune_red">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal_green" class="modal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-3 col-md-6">
+                    <div class="modal-content">
+                        <div class="row rune_green">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal_blue" class="modal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-3 col-md-6">
+                    <div class="modal-content">
+                        <div class="row rune_blue">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal_yellow" class="modal">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-3 col-md-6">
+                    <div class="modal-content">
+                        <div class="row rune_red">
+                        </div>
+                        <br>
+                        <div class="row rune_green">
+                        </div>
+                        <br>
+                        <div class="row rune_blue">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script id="template_row" type="text/template">
+    <div id="row_{{index}}" class="row row-bottom-margin">
+        {{cell0}}
+        {{cell1}}
+        {{cell2}}
+        {{cell3}}
+        {{cell4}}
+        {{cell5}}
+        {{cell6}}
+        {{cell7}}
+        {{cell8}}
+        {{cell9}}
+        {{cell10}}
+        {{cell11}}
+        {{cell12}}
+    </div>
+</script>
+
+<script id="template_cell" type="text/template">
+    <figure>
+        <img id="{{id}}" class="case opacity" src="{{img}}" onclick="selectitem({{id}})">
+        <figcaption class="caption">{{caption}}</figcaption>
+    </figure>
+</script>
+
+<script id="template_red_rune" type="text/template">
+    <div id="{{id}}" onclick="updateRune('{{name}}')" class="col-md-2" data-toggle="tooltip" data-placement="right" title="{{title}}">
+        <img src="images/{{name}}.png" class="border-dark rune_modal" />
+        <figcaption class="caption" style="font-size: 15px;">{{caption}}</figcaption>
+    </div>
+</script>
+
+<script id="template_green_rune" type="text/template">
+    <div id="{{id}}" onclick="updateRune('{{name}}')" class="col-md-2" data-toggle="tooltip" data-placement="right" title="{{title}}">
+        <img src="images/{{name}}.png" class="border-dark rune_modal" />
+        <figcaption class="caption" style="font-size: 15px;">{{caption}}</figcaption>
+    </div>
+</script>
+
+<script id="template_blue_rune" type="text/template">
+    <div id="{{id}}" onclick="updateRune('{{name}}')" class="col-md-2" data-toggle="tooltip" data-placement="right" title="{{title}}">
+        <img src="images/{{name}}.png" class="border-dark rune_modal" />
+        <figcaption class="caption" style="font-size: 15px;">{{caption}}</figcaption>
+    </div>
+</script>
+
+</html>

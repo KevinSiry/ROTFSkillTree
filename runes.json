@@ -1,0 +1,264 @@
+[
+    {
+        "id": "red1",
+        "name": "perfectionist",
+        "fullname": "Perfectionist",
+        "color": "red",
+        "bonuses": "When at full HP, Bonus Damage 35%",
+        "drawbacks": "When not at full HP, Bonus Damage -35%"
+    },
+    {
+        "id": "red2",
+        "name": "manahunger",
+        "fullname": "Mana Hunger",
+        "color": "red",
+        "bonuses": "Hitting Boss/Event monsters restores 1.5% of Maximum MP, killing enemies restores 10% of Maximum MP",
+        "drawbacks": "Mana Regeneration -95%, Dexterity -12",
+        "stats": [
+            {
+                "name": "Mana Regeneration",
+                "qty": -95,
+                "perc": true
+            },
+            {
+                "name": "dex",
+                "qty": -12
+            }
+        ]
+    },
+    {
+        "id": "red3",
+        "name": "narrowsighted",
+        "fullname": "Narrow Sighted Magic",
+        "color": "red",
+        "bonuses": "Ability Damage +75%",
+        "drawbacks": "Mana Regeneration -75%",
+        "stats": [
+            {
+                "name": "Ability Damage",
+                "qty": 75,
+                "perc": true
+            },
+            {
+                "name": "Mana Regeneration",
+                "qty": -75,
+                "perc": true
+            }
+        ]
+    },
+    {
+        "id": "red4",
+        "name": "consistent",
+        "fullname": "Consistent Onslaught",
+        "color": "red",
+        "bonuses": "All shots pierce armor, Immunity to Weak",
+        "drawbacks": "Weapon Damage is averaged, Immunity to Damaging"
+    },
+    {
+        "id": "red5",
+        "name": "agitator",
+        "fullname": "Aggressive Agitator",
+        "color": "red",
+        "bonuses": "Attack +75%",
+        "drawbacks": "Speed -15%, Dexterity -50%, Fire Rate -10%, Immunity to Berserk",
+        "stats": [
+            {
+                "name": "atk_perc",
+                "qty": 75
+            },
+            {
+                "name": "spd_perc",
+                "qty": -15
+            },
+            {
+                "name": "dex_perc",
+                "qty": -50
+            },
+            {
+                "name": "rof_perc",
+                "qty": -10
+            }
+        ]
+    },
+    {
+        "id": "red1",
+        "name": "adrenaline",
+        "fullname": "Adrenaline Rush",
+        "color": "red",
+        "bonuses": "When below 70% health, Fire Rate +35%, Health Regeneration +25%",
+        "drawbacks": "When above 70% health, fire Rate -15%, Health Regeneration -25%"
+    },
+    {
+        "id": "green1",
+        "name": "bloodpact",
+        "fullname": "Blood Pact",
+        "color": "green",
+        "bonuses": "Health Regeneration +85%",
+        "drawbacks": "Abilities use 20% health instead of mana",
+        "stats": [
+            {
+                "name": "Health Regeneration",
+                "qty": 85,
+                "perc": true
+            }
+        ]
+    },
+    {
+        "id": "green2",
+        "name": "bulwark",
+        "fullname": "Bulwark of the Surgeon",
+        "color": "green",
+        "bonuses": "Maximum HP +250%",
+        "drawbacks": "Speed -30%, Dexterity -50%, Attack -30%, Enemies will always target you if you're in their vision",
+        "stats": [
+            {
+                "name": "spd_perd",
+                "qty": -30
+            },
+            {
+                "name": "dex_perc",
+                "qty": -50
+            },
+            {
+                "name": "atk_perc",
+                "qty": -30
+            }
+        ]
+    },
+    {
+        "id": "green3",
+        "name": "bidingtime",
+        "fullname": "Biding Time",
+        "color": "green",
+        "bonuses": "Defense +50%, Immunity to Armor Break",
+        "drawbacks": "Health Regeneration -30%, Mana Regeration -30%",
+        "stats": [
+            {
+                "name": "def_perc",
+                "qty": 50
+            },
+            {
+                "name": "Health Regeneration",
+                "qty": -30,
+                "perc": true
+            },
+            {
+                "name": "Mana Regeneration",
+                "qty": -30,
+                "perc": true
+            }
+        ]
+    },
+    {
+        "id": "green4",
+        "name": "arcane",
+        "fullname": "Arcane Surge",
+        "color": "green",
+        "bonuses": "Mana Regeneration +135%",
+        "drawbacks": "Health Regeneration -50%",
+        "stats": [
+            {
+                "name": "Mana Regeneration",
+                "qty": 135,
+                "perc": true
+            },
+            {
+                "name": "Health Regeneration",
+                "qty": -50,
+                "perc": true
+            }
+        ]
+    },
+    {
+        "id": "green5",
+        "name": "brute",
+        "fullname": "Regeneration of the Brute",
+        "color": "green",
+        "bonuses": "Health Regeneration +115%",
+        "drawbacks": "Mana Regeneration -60%",
+        "stats": [
+            {
+                "name": "Mana Regeneration",
+                "qty": -60,
+                "perc": true
+            },
+            {
+                "name": "Health Regeneration",
+                "qty": 115,
+                "perc": true
+            }
+        ]
+    },
+    {
+        "id": "green6",
+        "name": "blissful",
+        "fullname": "Blissful Ignorance",
+        "color": "green",
+        "bonuses": "Immune to all debuffs",
+        "drawbacks": "Immune to all buffs, -10% to all stats while active"
+    },
+    {
+        "id": "blue1",
+        "name": "dreadstump",
+        "fullname": "Dreadstump's Greed",
+        "color": "blue",
+        "bonuses": "Loot Drop boost +33%",
+        "drawbacks": "Cannot boost Loot Drop by dealing SB damage",
+        "stats": [
+            {
+                "name": "loot_perc",
+                "qty": 33
+            }
+        ]
+    },
+    {
+        "id": "blue2",
+        "name": "obsession",
+        "fullname": "Rare Obsession",
+        "color": "blue",
+        "bonuses": "+200% fame boost",
+        "drawbacks": "You can't loot anything"
+    },
+    {
+        "id": "blue3",
+        "name": "temptation",
+        "fullname": "Restoration Temptation",
+        "color": "blue",
+        "bonuses": "Health Regeneration +8% for each Health Potion in stack, Magic Regeneration 8% for each Magic Potion in stack",
+        "drawbacks": "Upon using a Health/Mana Potion, you are stunned for 5 second"
+    },
+    {
+        "id": "blue4",
+        "name": "solothief",
+        "fullname": "Solo Thief",
+        "color": "blue",
+        "bonuses": "+75% Loot Drop boost",
+        "drawbacks": "-25% Loot Drop boost per player in an instance (not including you)"
+    },
+    {
+        "id": "blue5",
+        "name": "eyeforaneye",
+        "fullname": "Eye for an Eye",
+        "color": "blue",
+        "bonuses": "White Bag drop chance boost +60%",
+        "drawbacks": "You cannot loot any other item"
+    },
+    {
+        "id": "blue6",
+        "name": "pothead",
+        "fullname": "Pot Head",
+        "color": "blue",
+        "bonuses": "Killing bosses/events restores 2 Health/Mana potions (up to 6). Drinking a Health Potion gives 4 Attack and Dexterity and 10% Attack and Dexterity for 5 seconds. Drinking a Mana Potion gives 6 Speed and 15% Speed and Defense for 5 seconds.",
+        "drawbacks": "Health Potion doesn't restore HP, Magic Potion doesn't restore MP, -12% Vitality and Wisdom",
+        "stats": [
+            {
+                "name": "vit_perc",
+                "qty": -12
+            },
+            {
+                "name": "wis_perc",
+                "qty": -12
+            }
+        ]
+    }
+]
