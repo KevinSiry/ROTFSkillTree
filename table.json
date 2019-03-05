@@ -864,7 +864,7 @@
     "stats": [
       {
         "name": "loot_perc",
-        "qty": 10
+        "qty": 15
       },
       {
         "name": "hp_perc",
@@ -873,6 +873,30 @@
       {
         "name": "mp_perc",
         "qty": -12
+      },
+      {
+        "name": "dex_perc",
+        "qty": -7
+      },
+      {
+        "name": "atk_perc",
+        "qty": -7
+      },
+      {
+        "name": "wis_perc",
+        "qty": -7
+      },
+      {
+        "name": "def_perc",
+        "qty": -4
+      },
+      {
+        "name": "spd_perc",
+        "qty": -4
+      },
+      {
+        "name": "vit_perc",
+        "qty": -4
       }
     ]
   },
